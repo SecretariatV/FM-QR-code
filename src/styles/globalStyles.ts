@@ -2,27 +2,23 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 :root {
-    --lime: hsl(61, 70%, 52%);
-    --red: hsl(4, 69%, 50%);
     --white: hsl(0, 0%, 100%);
-    --slate-100: hsl(202, 86%, 94%);
-    --slate-300: hsl(203, 41%, 72%);
-    --slate-500: hsl(200, 26%, 54%);
-    --slate-700: hsl(200, 24%, 40%);
-    --slate-900: hsl(202, 55%, 16%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Outfit", sans-serif;
 }
 
 body {
     height: 100vh;
     width: 100%;
-    background-color: var(--slate-100);
+    background-color: var(--light-gray);
     display: grid;
     place-items: center;
 }

@@ -1,0 +1,37 @@
+@use "@styles/globalStyles.scss" as G;
+
+.body {
+  background-color: var(--white);
+  border-radius: 16px;
+  width: 320px;
+
+  .qr {
+    padding: 16px;
+    margin-bottom: 14px;
+
+    img {
+      border-radius: 8px;
+      width: 100%;
+    }
+  }
+
+  .info {
+    padding: 0 24px;
+
+    h1 {
+      font-size: 24px;
+      color: var(--dark-blue);
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 28px;
+    }
+
+    p {
+      font-size: 15px;
+      color: var(--grayish-blue);
+      text-align: center;
+      margin-bottom: 42px;
+      line-height: 18px;
+    }
+  }
+}
