@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/SecretariatV/FM-QR-code)
-- Live Site URL: [Add live site URL here](https://secretariatv.github.io/FM-QR-code)
+- Solution URL: [Github URL](https://github.com/SecretariatV/FM-QR-code)
+- Live Site URL: [Live Site URL](https://secretariatv.github.io/FM-QR-code)
 
 ## My process
 
